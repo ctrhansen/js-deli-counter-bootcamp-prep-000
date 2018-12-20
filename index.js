@@ -2,6 +2,9 @@ function takeANumber(currLine, name) {
   currLine.push(name)
   return (`Welcome, ${name}. You are number ${currLine.length} in line.`)
 }
+currLine = 1
+name = 'Greg'
+
 console.log()
 function nowServing(katzDeliLine) {
   if (katzDeliLine.length === 0) {
