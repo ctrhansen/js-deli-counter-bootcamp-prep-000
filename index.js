@@ -5,7 +5,7 @@ function takeANumber(currLine, name) {
 currLine = 1
 name = 'Greg'
 
-console.log()
+console.log(currLine, name)
 function nowServing(katzDeliLine) {
   if (katzDeliLine.length === 0) {
     return 'There is nobody waiting to be served!'
