@@ -3,7 +3,7 @@ function takeANumber(currLine, name) {
   return (`Welcome, ${name}. You are number ${currLine.length} in line.`)
 }
 currLine = 1
-name = 'Greg'
+name = 'Greg';
 
 console.log(currLine, name)
 function nowServing(katzDeliLine) {
