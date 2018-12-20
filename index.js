@@ -1,6 +1,6 @@
 function takeANumber(currLine) {
-  currLine.push(var numInLine = 1)
-  
+  currLine.push(1)
+  var numInLine = 1
   return (`Welcome, you are number ${numInLine += 1 } in line.`)
 }
 
